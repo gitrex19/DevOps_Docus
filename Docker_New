@@ -1,0 +1,30 @@
+Installation Steps
+Create Dockerhub account
+https://hub.docker.com/signup
+
+Install Docker
+The Docker docs suggest setting up a Docker repository to install and update from.
+This is where you should start: https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository
+
+Login to the Dockerhub
+In order to push and pull images, you will need to login to the Dockerhub. In your terminal, run docker login and then enter your Dockerhub account's username and password.
+
+Test Docker installation
+After completing the installation steps, test out Docker by running sudo docker run hello-world. This should download and run the test container printing "hello world" to your console.
+
+Installing Docker Compose
+Unlike the Mac and Windows Docker Desktop versions, we must manually install Docker Compose. See the instructions for the installation steps (Click on the tab for Linux)
+https://docs.docker.com/compose/install/#install-compose
+
+Testing Docker Compose
+After completing, test your installation by running docker-compose -v. This should print the version and build numbers to your console.
+
+Run without Sudo
+Follow these instructions to run Docker commands without sudo:
+https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
+
+Start on Boot
+Follow these instructions so that Docker and its services start automatically on boot:
+https://docs.docker.com/install/linux/linux-postinstall/#configure-docker-to-start-on-boot
+
+You may need to restart your system before starting the course material.
